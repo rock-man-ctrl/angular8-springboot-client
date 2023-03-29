@@ -1,0 +1,24 @@
+<h3>Update Server</h3>
+<div style="width: 400px;">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">id</label>
+      <input type="text" class="form-control" id="id" required [(ngModel)]="server.id" name="id">
+    </div>
+
+    <div class="form-group">
+      <label for="name">name</label>
+      <input type="text" class="form-control" id="name" required [(ngModel)]="server.name" name="name">
+    </div>
+
+    <div class="form-group">
+      <label for="name">language</label>
+      <input type="text" class="form-control" id="emailId" required [(ngModel)]="server.language" name="language">
+    </div>
+    <div class="form-group">
+      <label for="name">Email Id</label>
+      <input type="text" class="form-control" id="framework" required [(ngModel)]="server.framework" name="framework">
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>

@@ -1,0 +1,23 @@
+<h2>Server Details</h2> 
+
+<hr/>
+<div *ngIf="server">
+  <div>
+    <label><b>id: </b></label> {{server.id}}
+  </div>
+  <div>
+    <label><b>name: </b></label> {{server.name}}
+  </div>
+  <div>
+    <label><b>language: </b></label> {{server.language}}
+  </div>  
+  <div>
+    <label><b>framework: </b></label> {{server.framework}}
+  </div>
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Server List</button><br>
+
+

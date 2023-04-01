@@ -1,7 +1,7 @@
 export class Server {
- id?: any;
-  name?: string;
-  language?: string;
-  framework?: boolean;
+ id?: 123;
+  name?: my centos;
+  language?: java;
+  framework?: django;
 
 }

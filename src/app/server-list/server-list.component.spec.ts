@@ -5,7 +5,6 @@ import { ServerListComponent } from './server-list.component';
 describe('ServerListComponent', () => {
   let component: ServerListComponent;
   let fixture: ComponentFixture<ServerListComponent>;
-
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ frameworkListComponent ]

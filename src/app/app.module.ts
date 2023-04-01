@@ -9,7 +9,7 @@ import { ServerListComponent } from './server-list/server-list.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UpdateServerComponent } from './update-server/update-server.component';
 import { AddServerComponent } from './components/add-server/add-server.component';
-import { TutorialServerComponent } from './components/tutorial-server/tutorial-server.component';
+import { serverServerComponent } from './components/server-server/tutorial-server.component';
 import { ServerDetailsComponent } from './components/server-details/server-details.component';
 import { ServersListComponent } from './components/servers-list/servers-list.component';
 @NgModule({
@@ -20,7 +20,7 @@ import { ServersListComponent } from './components/servers-list/servers-list.com
     ServerListComponent,
     UpdateServerComponent,
     AddServerComponent,
-    TutorialServerComponent,
+    serverServerComponent,
     ServerDetailsComponent,
     ServersListComponent
   ],
